@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pqi5HVHnM6gGep73VQ05UG9JzEzRV5uq5mwhHItQ5g87NtliEG8jFrHmWI8MGlkZxYfaHWKPjX1tcGr09C6CrA==",
+  "dgSpecHash": "clh6TLC/mAIFQTJUW1tkNN2jzrZVZW7Q+1Eop1BUTvBEbcPY65jSvCwqhUJLc93rF7Ar1hF9aGvGmun1FskTkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kenne\\source\\repos\\BrainWare\\BrainWare\\BrainWare.csproj",
+  "projectFilePath": "C:\\Users\\kenne\\source\\repos\\longhorn\\brainware\\BrainWare\\BrainWare.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kenne\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\kenne\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
