@@ -1,0 +1,21 @@
+﻿@inject IOrderProductService _orderProductService
+@inject IOrderService _orderService 
+ 
+@if (Orders != null)
+{
+<ul>
+    @foreach (var o in Orders)
+    {
+        <li>
+            <span>@o.Description (Total: $@GetOrderTotal(o.Id).Result.ToString("F"))</span>
+            <ul>
+                @{ var prods = GetAllProductsForOrder(o.Id).Result;}
+                @foreach (var p in prods)
+                {
+                <li>@p.Product.Name (@p.Quantity @@ $@p.Price.ToString("F")/ea)</li>
+                }
+            </ul>
+        </li>
+    }
+</ul>
+}
