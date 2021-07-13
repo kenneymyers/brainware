@@ -12,7 +12,7 @@ This application now uses blazor and a service based approach to the problem. Th
 
 # Additional Things I Would Do
 
-I would paginate the results of the database query before displaying it to the user. I would also most likely provide a scope factory to control the context once more CRUD operations were added to the underlying services.
+I would paginate the results of the database query before displaying it to the user. I would also most likely provide a scope factory to control the context once more CRUD operations were added to the underlying services. I would also add unit tests for the services to make sure that they are functioning properly. I would not add any other unit tests.
 
 # Questions
 
