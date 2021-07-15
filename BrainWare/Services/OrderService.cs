@@ -11,8 +11,8 @@ namespace BrainWare.Services
     public class OrderService : IOrderService
     {
         private readonly SqlLiteDbContext _context;
-        private readonly ILogger<OrderProductService> _logger;
-        public OrderService(SqlLiteDbContext context, ILogger<OrderProductService> logger)
+        private readonly ILogger<OrderService> _logger;
+        public OrderService(SqlLiteDbContext context, ILogger<OrderService> logger)
         {
             _context = context;
             _logger = logger;
